@@ -1,0 +1,1207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="processor_simulation_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="processor_simulation" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="908439fs"></ZoomEndTime>
+      <Cursor1Time time="1000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="143"></NameColumnWidth>
+      <ValueColumnWidth column_width="132"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="49" />
+   <wvobject fp_name="group101" type="group">
+      <obj_property name="label">rom</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/ROM_T/clock" type="logic">
+         <obj_property name="ElementShortName">clock</obj_property>
+         <obj_property name="ObjectShortName">clock</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/ROM_T/address" type="array">
+         <obj_property name="ElementShortName">address[7:0]</obj_property>
+         <obj_property name="ObjectShortName">address[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/ROM_T/data_out" type="array">
+         <obj_property name="ElementShortName">data_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/ROM_T/enable" type="logic">
+         <obj_property name="ElementShortName">enable</obj_property>
+         <obj_property name="ObjectShortName">enable</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/ROM_T/LOAD_A_CNST" type="array">
+         <obj_property name="ElementShortName">LOAD_A_CNST[7:0]</obj_property>
+         <obj_property name="ObjectShortName">LOAD_A_CNST[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/ROM_T/LOAD_A" type="array">
+         <obj_property name="ElementShortName">LOAD_A[7:0]</obj_property>
+         <obj_property name="ObjectShortName">LOAD_A[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/ROM_T/LOAD_B_CNST" type="array">
+         <obj_property name="ElementShortName">LOAD_B_CNST[7:0]</obj_property>
+         <obj_property name="ObjectShortName">LOAD_B_CNST[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/ROM_T/LOAD_B" type="array">
+         <obj_property name="ElementShortName">LOAD_B[7:0]</obj_property>
+         <obj_property name="ObjectShortName">LOAD_B[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/ROM_T/SAVE_A" type="array">
+         <obj_property name="ElementShortName">SAVE_A[7:0]</obj_property>
+         <obj_property name="ObjectShortName">SAVE_A[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/ROM_T/SAVE_B" type="array">
+         <obj_property name="ElementShortName">SAVE_B[7:0]</obj_property>
+         <obj_property name="ObjectShortName">SAVE_B[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/ROM_T/SUM_AB" type="array">
+         <obj_property name="ElementShortName">SUM_AB[7:0]</obj_property>
+         <obj_property name="ObjectShortName">SUM_AB[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/ROM_T/SUB_AB" type="array">
+         <obj_property name="ElementShortName">SUB_AB[7:0]</obj_property>
+         <obj_property name="ObjectShortName">SUB_AB[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/ROM_T/AND_AB" type="array">
+         <obj_property name="ElementShortName">AND_AB[7:0]</obj_property>
+         <obj_property name="ObjectShortName">AND_AB[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/ROM_T/OR_AB" type="array">
+         <obj_property name="ElementShortName">OR_AB[7:0]</obj_property>
+         <obj_property name="ObjectShortName">OR_AB[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/ROM_T/INC_A" type="array">
+         <obj_property name="ElementShortName">INC_A[7:0]</obj_property>
+         <obj_property name="ObjectShortName">INC_A[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/ROM_T/INC_B" type="array">
+         <obj_property name="ElementShortName">INC_B[7:0]</obj_property>
+         <obj_property name="ObjectShortName">INC_B[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/ROM_T/DEC_A" type="array">
+         <obj_property name="ElementShortName">DEC_A[7:0]</obj_property>
+         <obj_property name="ObjectShortName">DEC_A[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/ROM_T/DEC_B" type="array">
+         <obj_property name="ElementShortName">DEC_B[7:0]</obj_property>
+         <obj_property name="ObjectShortName">DEC_B[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/ROM_T/SKIP" type="array">
+         <obj_property name="ElementShortName">SKIP[7:0]</obj_property>
+         <obj_property name="ObjectShortName">SKIP[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/ROM_T/SKIP_NEG" type="array">
+         <obj_property name="ElementShortName">SKIP_NEG[7:0]</obj_property>
+         <obj_property name="ObjectShortName">SKIP_NEG[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/ROM_T/SKIP_POZ" type="array">
+         <obj_property name="ElementShortName">SKIP_POZ[7:0]</obj_property>
+         <obj_property name="ObjectShortName">SKIP_POZ[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/ROM_T/SKIP_0" type="array">
+         <obj_property name="ElementShortName">SKIP_0[7:0]</obj_property>
+         <obj_property name="ObjectShortName">SKIP_0[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/ROM_T/SKIP_N0" type="array">
+         <obj_property name="ElementShortName">SKIP_N0[7:0]</obj_property>
+         <obj_property name="ObjectShortName">SKIP_N0[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/ROM_T/SKIP_OFLOW" type="array">
+         <obj_property name="ElementShortName">SKIP_OFLOW[7:0]</obj_property>
+         <obj_property name="ObjectShortName">SKIP_OFLOW[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/ROM_T/SKIP_NOFLOW" type="array">
+         <obj_property name="ElementShortName">SKIP_NOFLOW[7:0]</obj_property>
+         <obj_property name="ObjectShortName">SKIP_NOFLOW[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/ROM_T/SKIP_CARRY" type="array">
+         <obj_property name="ElementShortName">SKIP_CARRY[7:0]</obj_property>
+         <obj_property name="ObjectShortName">SKIP_CARRY[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/ROM_T/SKIP_NCARRY" type="array">
+         <obj_property name="ElementShortName">SKIP_NCARRY[7:0]</obj_property>
+         <obj_property name="ObjectShortName">SKIP_NCARRY[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/ROM_T/ROM" type="array">
+         <obj_property name="ElementShortName">ROM[0:127][7:0]</obj_property>
+         <obj_property name="ObjectShortName">ROM[0:127][7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group698" type="group">
+      <obj_property name="label">processor_unit</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/processor_simulation/clock" type="logic">
+         <obj_property name="ElementShortName">clock</obj_property>
+         <obj_property name="ObjectShortName">clock</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/reset" type="logic">
+         <obj_property name="ElementShortName">reset</obj_property>
+         <obj_property name="ObjectShortName">reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/port_in_00" type="array">
+         <obj_property name="ElementShortName">port_in_00[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_00[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/port_in_01" type="array">
+         <obj_property name="ElementShortName">port_in_01[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_01[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/port_in_02" type="array">
+         <obj_property name="ElementShortName">port_in_02[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_02[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/port_in_03" type="array">
+         <obj_property name="ElementShortName">port_in_03[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_03[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/port_in_04" type="array">
+         <obj_property name="ElementShortName">port_in_04[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_04[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/port_in_05" type="array">
+         <obj_property name="ElementShortName">port_in_05[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_05[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/port_in_06" type="array">
+         <obj_property name="ElementShortName">port_in_06[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_06[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/port_in_07" type="array">
+         <obj_property name="ElementShortName">port_in_07[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_07[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/port_in_08" type="array">
+         <obj_property name="ElementShortName">port_in_08[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_08[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/port_in_09" type="array">
+         <obj_property name="ElementShortName">port_in_09[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_09[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/port_in_10" type="array">
+         <obj_property name="ElementShortName">port_in_10[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_10[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/port_in_11" type="array">
+         <obj_property name="ElementShortName">port_in_11[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_11[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/port_in_12" type="array">
+         <obj_property name="ElementShortName">port_in_12[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_12[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/port_in_13" type="array">
+         <obj_property name="ElementShortName">port_in_13[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_13[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/port_in_14" type="array">
+         <obj_property name="ElementShortName">port_in_14[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_14[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/port_in_15" type="array">
+         <obj_property name="ElementShortName">port_in_15[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_15[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/data_out" type="array">
+         <obj_property name="ElementShortName">data_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/data_out_00" type="array">
+         <obj_property name="ElementShortName">data_out_00[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_00[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/data_out_01" type="array">
+         <obj_property name="ElementShortName">data_out_01[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_01[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/data_out_02" type="array">
+         <obj_property name="ElementShortName">data_out_02[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_02[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/data_out_03" type="array">
+         <obj_property name="ElementShortName">data_out_03[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_03[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/data_out_04" type="array">
+         <obj_property name="ElementShortName">data_out_04[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_04[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/data_out_05" type="array">
+         <obj_property name="ElementShortName">data_out_05[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_05[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/data_out_06" type="array">
+         <obj_property name="ElementShortName">data_out_06[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_06[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/data_out_07" type="array">
+         <obj_property name="ElementShortName">data_out_07[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_07[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/data_out_08" type="array">
+         <obj_property name="ElementShortName">data_out_08[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_08[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/data_out_09" type="array">
+         <obj_property name="ElementShortName">data_out_09[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_09[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/data_out_10" type="array">
+         <obj_property name="ElementShortName">data_out_10[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_10[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/data_out_11" type="array">
+         <obj_property name="ElementShortName">data_out_11[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_11[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/data_out_12" type="array">
+         <obj_property name="ElementShortName">data_out_12[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_12[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/data_out_13" type="array">
+         <obj_property name="ElementShortName">data_out_13[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_13[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/data_out_14" type="array">
+         <obj_property name="ElementShortName">data_out_14[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_14[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/data_out_15" type="array">
+         <obj_property name="ElementShortName">data_out_15[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_15[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/clock_period" type="other">
+         <obj_property name="ElementShortName">clock_period</obj_property>
+         <obj_property name="ObjectShortName">clock_period</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group661" type="group">
+      <obj_property name="label">uut</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/processor_simulation/uut/clock" type="logic">
+         <obj_property name="ElementShortName">clock</obj_property>
+         <obj_property name="ObjectShortName">clock</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/reset" type="logic">
+         <obj_property name="ElementShortName">reset</obj_property>
+         <obj_property name="ObjectShortName">reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/port_in_00" type="array">
+         <obj_property name="ElementShortName">port_in_00[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_00[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/port_in_01" type="array">
+         <obj_property name="ElementShortName">port_in_01[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_01[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/port_in_02" type="array">
+         <obj_property name="ElementShortName">port_in_02[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_02[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/port_in_03" type="array">
+         <obj_property name="ElementShortName">port_in_03[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_03[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/port_in_04" type="array">
+         <obj_property name="ElementShortName">port_in_04[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_04[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/port_in_05" type="array">
+         <obj_property name="ElementShortName">port_in_05[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_05[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/port_in_06" type="array">
+         <obj_property name="ElementShortName">port_in_06[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_06[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/port_in_07" type="array">
+         <obj_property name="ElementShortName">port_in_07[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_07[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/port_in_08" type="array">
+         <obj_property name="ElementShortName">port_in_08[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_08[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/port_in_09" type="array">
+         <obj_property name="ElementShortName">port_in_09[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_09[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/port_in_10" type="array">
+         <obj_property name="ElementShortName">port_in_10[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_10[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/port_in_11" type="array">
+         <obj_property name="ElementShortName">port_in_11[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_11[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/port_in_12" type="array">
+         <obj_property name="ElementShortName">port_in_12[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_12[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/port_in_13" type="array">
+         <obj_property name="ElementShortName">port_in_13[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_13[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/port_in_14" type="array">
+         <obj_property name="ElementShortName">port_in_14[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_14[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/port_in_15" type="array">
+         <obj_property name="ElementShortName">port_in_15[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_15[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/data_out" type="array">
+         <obj_property name="ElementShortName">data_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/data_out_00" type="array">
+         <obj_property name="ElementShortName">data_out_00[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_00[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/data_out_01" type="array">
+         <obj_property name="ElementShortName">data_out_01[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_01[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/data_out_02" type="array">
+         <obj_property name="ElementShortName">data_out_02[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_02[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/data_out_03" type="array">
+         <obj_property name="ElementShortName">data_out_03[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_03[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/data_out_04" type="array">
+         <obj_property name="ElementShortName">data_out_04[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_04[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/data_out_05" type="array">
+         <obj_property name="ElementShortName">data_out_05[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_05[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/data_out_06" type="array">
+         <obj_property name="ElementShortName">data_out_06[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_06[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/data_out_07" type="array">
+         <obj_property name="ElementShortName">data_out_07[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_07[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/data_out_08" type="array">
+         <obj_property name="ElementShortName">data_out_08[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_08[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/data_out_09" type="array">
+         <obj_property name="ElementShortName">data_out_09[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_09[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/data_out_10" type="array">
+         <obj_property name="ElementShortName">data_out_10[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_10[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/data_out_11" type="array">
+         <obj_property name="ElementShortName">data_out_11[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_11[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/data_out_12" type="array">
+         <obj_property name="ElementShortName">data_out_12[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_12[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/data_out_13" type="array">
+         <obj_property name="ElementShortName">data_out_13[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_13[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/data_out_14" type="array">
+         <obj_property name="ElementShortName">data_out_14[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_14[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/data_out_15" type="array">
+         <obj_property name="ElementShortName">data_out_15[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_15[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/write_enable" type="logic">
+         <obj_property name="ElementShortName">write_enable</obj_property>
+         <obj_property name="ObjectShortName">write_enable</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/address" type="array">
+         <obj_property name="ElementShortName">address[7:0]</obj_property>
+         <obj_property name="ObjectShortName">address[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/from_memory" type="array">
+         <obj_property name="ElementShortName">from_memory[7:0]</obj_property>
+         <obj_property name="ObjectShortName">from_memory[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/to_memory" type="array">
+         <obj_property name="ElementShortName">to_memory[7:0]</obj_property>
+         <obj_property name="ObjectShortName">to_memory[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/data_in" type="array">
+         <obj_property name="ElementShortName">data_in[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group620" type="group">
+      <obj_property name="label">cpu_t</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/processor_simulation/uut/cpu_t/clock" type="logic">
+         <obj_property name="ElementShortName">clock</obj_property>
+         <obj_property name="ObjectShortName">clock</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/cpu_t/reset" type="logic">
+         <obj_property name="ElementShortName">reset</obj_property>
+         <obj_property name="ObjectShortName">reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/cpu_t/from_memory" type="array">
+         <obj_property name="ElementShortName">from_memory[7:0]</obj_property>
+         <obj_property name="ObjectShortName">from_memory[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/cpu_t/to_memory" type="array">
+         <obj_property name="ElementShortName">to_memory[7:0]</obj_property>
+         <obj_property name="ObjectShortName">to_memory[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/cpu_t/address" type="array">
+         <obj_property name="ElementShortName">address[7:0]</obj_property>
+         <obj_property name="ObjectShortName">address[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/cpu_t/write_enable" type="logic">
+         <obj_property name="ElementShortName">write_enable</obj_property>
+         <obj_property name="ObjectShortName">write_enable</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/cpu_t/IR_LOAD" type="logic">
+         <obj_property name="ElementShortName">IR_LOAD</obj_property>
+         <obj_property name="ObjectShortName">IR_LOAD</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/cpu_t/MAR_LOAD" type="logic">
+         <obj_property name="ElementShortName">MAR_LOAD</obj_property>
+         <obj_property name="ObjectShortName">MAR_LOAD</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/cpu_t/PC_LOAD" type="logic">
+         <obj_property name="ElementShortName">PC_LOAD</obj_property>
+         <obj_property name="ObjectShortName">PC_LOAD</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/cpu_t/PC_INC" type="logic">
+         <obj_property name="ElementShortName">PC_INC</obj_property>
+         <obj_property name="ObjectShortName">PC_INC</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/cpu_t/A_LOAD" type="logic">
+         <obj_property name="ElementShortName">A_LOAD</obj_property>
+         <obj_property name="ObjectShortName">A_LOAD</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/cpu_t/B_LOAD" type="logic">
+         <obj_property name="ElementShortName">B_LOAD</obj_property>
+         <obj_property name="ObjectShortName">B_LOAD</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/cpu_t/ALU_Sel" type="array">
+         <obj_property name="ElementShortName">ALU_Sel[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ALU_Sel[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/cpu_t/CCR_LOAD" type="logic">
+         <obj_property name="ElementShortName">CCR_LOAD</obj_property>
+         <obj_property name="ObjectShortName">CCR_LOAD</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/cpu_t/BUS1_Sel" type="array">
+         <obj_property name="ElementShortName">BUS1_Sel[1:0]</obj_property>
+         <obj_property name="ObjectShortName">BUS1_Sel[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/cpu_t/BUS2_Sel" type="array">
+         <obj_property name="ElementShortName">BUS2_Sel[1:0]</obj_property>
+         <obj_property name="ObjectShortName">BUS2_Sel[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/cpu_t/IR" type="array">
+         <obj_property name="ElementShortName">IR[7:0]</obj_property>
+         <obj_property name="ObjectShortName">IR[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/cpu_t/CCR_result" type="array">
+         <obj_property name="ElementShortName">CCR_result[3:0]</obj_property>
+         <obj_property name="ObjectShortName">CCR_result[3:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group601" type="group">
+      <obj_property name="label">datapath_w_t</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/processor_simulation/uut/cpu_t/datapath_t/clock" type="logic">
+         <obj_property name="ElementShortName">clock</obj_property>
+         <obj_property name="ObjectShortName">clock</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/cpu_t/datapath_t/reset" type="logic">
+         <obj_property name="ElementShortName">reset</obj_property>
+         <obj_property name="ObjectShortName">reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/cpu_t/datapath_t/IR_LOAD" type="logic">
+         <obj_property name="ElementShortName">IR_LOAD</obj_property>
+         <obj_property name="ObjectShortName">IR_LOAD</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/cpu_t/datapath_t/MAR_LOAD" type="logic">
+         <obj_property name="ElementShortName">MAR_LOAD</obj_property>
+         <obj_property name="ObjectShortName">MAR_LOAD</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/cpu_t/datapath_t/PC_LOAD" type="logic">
+         <obj_property name="ElementShortName">PC_LOAD</obj_property>
+         <obj_property name="ObjectShortName">PC_LOAD</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/cpu_t/datapath_t/PC_INC" type="logic">
+         <obj_property name="ElementShortName">PC_INC</obj_property>
+         <obj_property name="ObjectShortName">PC_INC</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/cpu_t/datapath_t/A_LOAD" type="logic">
+         <obj_property name="ElementShortName">A_LOAD</obj_property>
+         <obj_property name="ObjectShortName">A_LOAD</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/cpu_t/datapath_t/B_LOAD" type="logic">
+         <obj_property name="ElementShortName">B_LOAD</obj_property>
+         <obj_property name="ObjectShortName">B_LOAD</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/cpu_t/datapath_t/ALU_Sel" type="array">
+         <obj_property name="ElementShortName">ALU_Sel[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ALU_Sel[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/cpu_t/datapath_t/CCR_LOAD" type="logic">
+         <obj_property name="ElementShortName">CCR_LOAD</obj_property>
+         <obj_property name="ObjectShortName">CCR_LOAD</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/cpu_t/datapath_t/BUS1_Sel" type="array">
+         <obj_property name="ElementShortName">BUS1_Sel[1:0]</obj_property>
+         <obj_property name="ObjectShortName">BUS1_Sel[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/cpu_t/datapath_t/BUS2_Sel" type="array">
+         <obj_property name="ElementShortName">BUS2_Sel[1:0]</obj_property>
+         <obj_property name="ObjectShortName">BUS2_Sel[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/cpu_t/datapath_t/from_memory" type="array">
+         <obj_property name="ElementShortName">from_memory[7:0]</obj_property>
+         <obj_property name="ObjectShortName">from_memory[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/cpu_t/datapath_t/IR" type="array">
+         <obj_property name="ElementShortName">IR[7:0]</obj_property>
+         <obj_property name="ObjectShortName">IR[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/cpu_t/datapath_t/address" type="array">
+         <obj_property name="ElementShortName">address[7:0]</obj_property>
+         <obj_property name="ObjectShortName">address[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/cpu_t/datapath_t/CCR_result" type="array">
+         <obj_property name="ElementShortName">CCR_result[3:0]</obj_property>
+         <obj_property name="ObjectShortName">CCR_result[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/cpu_t/datapath_t/to_memory" type="array">
+         <obj_property name="ElementShortName">to_memory[7:0]</obj_property>
+         <obj_property name="ObjectShortName">to_memory[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/cpu_t/datapath_t/BUS1" type="array">
+         <obj_property name="ElementShortName">BUS1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">BUS1[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/cpu_t/datapath_t/BUS2" type="array">
+         <obj_property name="ElementShortName">BUS2[7:0]</obj_property>
+         <obj_property name="ObjectShortName">BUS2[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/cpu_t/datapath_t/ALU_result" type="array">
+         <obj_property name="ElementShortName">ALU_result[7:0]</obj_property>
+         <obj_property name="ObjectShortName">ALU_result[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/cpu_t/datapath_t/IR_reg" type="array">
+         <obj_property name="ElementShortName">IR_reg[7:0]</obj_property>
+         <obj_property name="ObjectShortName">IR_reg[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/cpu_t/datapath_t/MAR" type="array">
+         <obj_property name="ElementShortName">MAR[7:0]</obj_property>
+         <obj_property name="ObjectShortName">MAR[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/cpu_t/datapath_t/PC" type="array">
+         <obj_property name="ElementShortName">PC[7:0]</obj_property>
+         <obj_property name="ObjectShortName">PC[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/cpu_t/datapath_t/A_reg" type="array">
+         <obj_property name="ElementShortName">A_reg[7:0]</obj_property>
+         <obj_property name="ObjectShortName">A_reg[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/cpu_t/datapath_t/B_reg" type="array">
+         <obj_property name="ElementShortName">B_reg[7:0]</obj_property>
+         <obj_property name="ObjectShortName">B_reg[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/cpu_t/datapath_t/CCR_in" type="array">
+         <obj_property name="ElementShortName">CCR_in[3:0]</obj_property>
+         <obj_property name="ObjectShortName">CCR_in[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/cpu_t/datapath_t/CCR" type="array">
+         <obj_property name="ElementShortName">CCR[3:0]</obj_property>
+         <obj_property name="ObjectShortName">CCR[3:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group573" type="group">
+      <obj_property name="label">datapath</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/clock" type="logic">
+         <obj_property name="ElementShortName">clock</obj_property>
+         <obj_property name="ObjectShortName">clock</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/reset" type="logic">
+         <obj_property name="ElementShortName">reset</obj_property>
+         <obj_property name="ObjectShortName">reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/write_enable" type="logic">
+         <obj_property name="ElementShortName">write_enable</obj_property>
+         <obj_property name="ObjectShortName">write_enable</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/address" type="array">
+         <obj_property name="ElementShortName">address[7:0]</obj_property>
+         <obj_property name="ObjectShortName">address[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/data_in" type="array">
+         <obj_property name="ElementShortName">data_in[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/port_in_00" type="array">
+         <obj_property name="ElementShortName">port_in_00[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_00[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/port_in_01" type="array">
+         <obj_property name="ElementShortName">port_in_01[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_01[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/port_in_02" type="array">
+         <obj_property name="ElementShortName">port_in_02[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_02[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/port_in_03" type="array">
+         <obj_property name="ElementShortName">port_in_03[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_03[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/port_in_04" type="array">
+         <obj_property name="ElementShortName">port_in_04[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_04[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/port_in_05" type="array">
+         <obj_property name="ElementShortName">port_in_05[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_05[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/port_in_06" type="array">
+         <obj_property name="ElementShortName">port_in_06[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_06[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/port_in_07" type="array">
+         <obj_property name="ElementShortName">port_in_07[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_07[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/port_in_08" type="array">
+         <obj_property name="ElementShortName">port_in_08[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_08[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/port_in_09" type="array">
+         <obj_property name="ElementShortName">port_in_09[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_09[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/port_in_10" type="array">
+         <obj_property name="ElementShortName">port_in_10[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_10[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/port_in_11" type="array">
+         <obj_property name="ElementShortName">port_in_11[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_11[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/port_in_12" type="array">
+         <obj_property name="ElementShortName">port_in_12[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_12[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/port_in_13" type="array">
+         <obj_property name="ElementShortName">port_in_13[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_13[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/port_in_14" type="array">
+         <obj_property name="ElementShortName">port_in_14[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_14[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/port_in_15" type="array">
+         <obj_property name="ElementShortName">port_in_15[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_15[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/data_out" type="array">
+         <obj_property name="ElementShortName">data_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/data_out_00" type="array">
+         <obj_property name="ElementShortName">data_out_00[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_00[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/data_out_01" type="array">
+         <obj_property name="ElementShortName">data_out_01[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_01[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/data_out_02" type="array">
+         <obj_property name="ElementShortName">data_out_02[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_02[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/data_out_03" type="array">
+         <obj_property name="ElementShortName">data_out_03[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_03[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/data_out_04" type="array">
+         <obj_property name="ElementShortName">data_out_04[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_04[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/data_out_05" type="array">
+         <obj_property name="ElementShortName">data_out_05[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_05[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/data_out_06" type="array">
+         <obj_property name="ElementShortName">data_out_06[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_06[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/data_out_07" type="array">
+         <obj_property name="ElementShortName">data_out_07[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_07[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/data_out_08" type="array">
+         <obj_property name="ElementShortName">data_out_08[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_08[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/data_out_09" type="array">
+         <obj_property name="ElementShortName">data_out_09[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_09[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/data_out_10" type="array">
+         <obj_property name="ElementShortName">data_out_10[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_10[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/data_out_11" type="array">
+         <obj_property name="ElementShortName">data_out_11[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_11[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/data_out_12" type="array">
+         <obj_property name="ElementShortName">data_out_12[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_12[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/data_out_13" type="array">
+         <obj_property name="ElementShortName">data_out_13[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_13[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/data_out_14" type="array">
+         <obj_property name="ElementShortName">data_out_14[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_14[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/data_out_15" type="array">
+         <obj_property name="ElementShortName">data_out_15[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_15[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/rom_sig" type="array">
+         <obj_property name="ElementShortName">rom_sig[7:0]</obj_property>
+         <obj_property name="ObjectShortName">rom_sig[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/ram_sig" type="array">
+         <obj_property name="ElementShortName">ram_sig[7:0]</obj_property>
+         <obj_property name="ObjectShortName">ram_sig[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group109" type="group">
+      <obj_property name="label">ram</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/RAM_T/enable" type="logic">
+         <obj_property name="ElementShortName">enable</obj_property>
+         <obj_property name="ObjectShortName">enable</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/RAM_T/RAM" type="array">
+         <obj_property name="ElementShortName">RAM[128:223][7:0]</obj_property>
+         <obj_property name="ObjectShortName">RAM[128:223][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/RAM_T/data_out" type="array">
+         <obj_property name="ElementShortName">data_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/RAM_T/data_in" type="array">
+         <obj_property name="ElementShortName">data_in[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/RAM_T/address" type="array">
+         <obj_property name="ElementShortName">address[7:0]</obj_property>
+         <obj_property name="ObjectShortName">address[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/RAM_T/write_enable" type="logic">
+         <obj_property name="ElementShortName">write_enable</obj_property>
+         <obj_property name="ObjectShortName">write_enable</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/RAM_T/clock" type="logic">
+         <obj_property name="ElementShortName">clock</obj_property>
+         <obj_property name="ObjectShortName">clock</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group150" type="group">
+      <obj_property name="label">IO/PORT,</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/IO_T/data_out_15" type="array">
+         <obj_property name="ElementShortName">data_out_15[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_15[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/IO_T/data_out_15" type="array">
+         <obj_property name="ElementShortName">data_out_15[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_15[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/IO_T/data_out_14" type="array">
+         <obj_property name="ElementShortName">data_out_14[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_14[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/IO_T/data_out_13" type="array">
+         <obj_property name="ElementShortName">data_out_13[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_13[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/IO_T/data_out_12" type="array">
+         <obj_property name="ElementShortName">data_out_12[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_12[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/IO_T/data_out_11" type="array">
+         <obj_property name="ElementShortName">data_out_11[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_11[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/IO_T/data_out_10" type="array">
+         <obj_property name="ElementShortName">data_out_10[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_10[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/IO_T/data_out_09" type="array">
+         <obj_property name="ElementShortName">data_out_09[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_09[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/IO_T/data_out_08" type="array">
+         <obj_property name="ElementShortName">data_out_08[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_08[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/IO_T/data_out_00" type="array">
+         <obj_property name="ElementShortName">data_out_00[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_00[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/IO_T/data_out_01" type="array">
+         <obj_property name="ElementShortName">data_out_01[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_01[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/IO_T/data_out_02" type="array">
+         <obj_property name="ElementShortName">data_out_02[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_02[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/IO_T/data_out_03" type="array">
+         <obj_property name="ElementShortName">data_out_03[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_03[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/IO_T/data_out_04" type="array">
+         <obj_property name="ElementShortName">data_out_04[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_04[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/IO_T/data_out_05" type="array">
+         <obj_property name="ElementShortName">data_out_05[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_05[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/IO_T/data_out_06" type="array">
+         <obj_property name="ElementShortName">data_out_06[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_06[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/IO_T/data_out_07" type="array">
+         <obj_property name="ElementShortName">data_out_07[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_07[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/IO_T/address" type="array">
+         <obj_property name="ElementShortName">address[7:0]</obj_property>
+         <obj_property name="ObjectShortName">address[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/IO_T/data_out_15" type="array">
+         <obj_property name="ElementShortName">data_out_15[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_15[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/IO_T/write_enable" type="logic">
+         <obj_property name="ElementShortName">write_enable</obj_property>
+         <obj_property name="ObjectShortName">write_enable</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/IO_T/reset" type="logic">
+         <obj_property name="ElementShortName">reset</obj_property>
+         <obj_property name="ObjectShortName">reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/IO_T/clock" type="logic">
+         <obj_property name="ElementShortName">clock</obj_property>
+         <obj_property name="ObjectShortName">clock</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/IO_T/data_out_15" type="array">
+         <obj_property name="ElementShortName">data_out_15[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_15[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/IO_T/data_out_14" type="array">
+         <obj_property name="ElementShortName">data_out_14[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_14[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/IO_T/data_out_13" type="array">
+         <obj_property name="ElementShortName">data_out_13[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_13[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/IO_T/data_out_12" type="array">
+         <obj_property name="ElementShortName">data_out_12[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_12[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/IO_T/data_out_11" type="array">
+         <obj_property name="ElementShortName">data_out_11[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_11[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/IO_T/data_out_10" type="array">
+         <obj_property name="ElementShortName">data_out_10[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_10[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/IO_T/data_out_09" type="array">
+         <obj_property name="ElementShortName">data_out_09[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_09[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/IO_T/data_out_08" type="array">
+         <obj_property name="ElementShortName">data_out_08[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_08[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/IO_T/data_out_00" type="array">
+         <obj_property name="ElementShortName">data_out_00[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_00[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/IO_T/data_out_01" type="array">
+         <obj_property name="ElementShortName">data_out_01[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_01[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/IO_T/data_out_02" type="array">
+         <obj_property name="ElementShortName">data_out_02[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_02[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/IO_T/data_out_03" type="array">
+         <obj_property name="ElementShortName">data_out_03[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_03[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/IO_T/data_out_04" type="array">
+         <obj_property name="ElementShortName">data_out_04[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_04[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/IO_T/data_out_05" type="array">
+         <obj_property name="ElementShortName">data_out_05[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_05[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/IO_T/data_out_06" type="array">
+         <obj_property name="ElementShortName">data_out_06[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_06[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/IO_T/data_out_07" type="array">
+         <obj_property name="ElementShortName">data_out_07[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out_07[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/IO_T/address" type="array">
+         <obj_property name="ElementShortName">address[7:0]</obj_property>
+         <obj_property name="ObjectShortName">address[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/datapath_t/IO_T/data_in" type="array">
+         <obj_property name="ElementShortName">data_in[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group160" type="group">
+      <obj_property name="label">ALU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/processor_simulation/uut/cpu_t/datapath_t/ALU_T/sub_overflow" type="logic">
+         <obj_property name="ElementShortName">sub_overflow</obj_property>
+         <obj_property name="ObjectShortName">sub_overflow</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/cpu_t/datapath_t/ALU_T/add_overflow" type="logic">
+         <obj_property name="ElementShortName">add_overflow</obj_property>
+         <obj_property name="ObjectShortName">add_overflow</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/cpu_t/datapath_t/ALU_T/sum_unsigned" type="array">
+         <obj_property name="ElementShortName">sum_unsigned[8:0]</obj_property>
+         <obj_property name="ObjectShortName">sum_unsigned[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/cpu_t/datapath_t/ALU_T/ALU_signal" type="array">
+         <obj_property name="ElementShortName">ALU_signal[7:0]</obj_property>
+         <obj_property name="ObjectShortName">ALU_signal[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/cpu_t/datapath_t/ALU_T/ALU_result" type="array">
+         <obj_property name="ElementShortName">ALU_result[7:0]</obj_property>
+         <obj_property name="ObjectShortName">ALU_result[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/cpu_t/datapath_t/ALU_T/NZVC" type="array">
+         <obj_property name="ElementShortName">NZVC[3:0]</obj_property>
+         <obj_property name="ObjectShortName">NZVC[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/cpu_t/datapath_t/ALU_T/ALU_Sel" type="array">
+         <obj_property name="ElementShortName">ALU_Sel[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ALU_Sel[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/cpu_t/datapath_t/ALU_T/B" type="array">
+         <obj_property name="ElementShortName">B[7:0]</obj_property>
+         <obj_property name="ObjectShortName">B[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/processor_simulation/uut/cpu_t/datapath_t/ALU_T/A" type="array">
+         <obj_property name="ElementShortName">A[7:0]</obj_property>
+         <obj_property name="ObjectShortName">A[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/processor_simulation/uut/cpu_t/control_unit_t/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_simulation/uut/cpu_t/control_unit_t/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_simulation/uut/cpu_t/control_unit_t/CCR_result" type="array">
+      <obj_property name="ElementShortName">CCR_result[3:0]</obj_property>
+      <obj_property name="ObjectShortName">CCR_result[3:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_simulation/uut/cpu_t/control_unit_t/IR" type="array">
+      <obj_property name="ElementShortName">IR[7:0]</obj_property>
+      <obj_property name="ObjectShortName">IR[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_simulation/uut/cpu_t/control_unit_t/IR_LOAD" type="logic">
+      <obj_property name="ElementShortName">IR_LOAD</obj_property>
+      <obj_property name="ObjectShortName">IR_LOAD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_simulation/uut/cpu_t/control_unit_t/MAR_LOAD" type="logic">
+      <obj_property name="ElementShortName">MAR_LOAD</obj_property>
+      <obj_property name="ObjectShortName">MAR_LOAD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_simulation/uut/cpu_t/control_unit_t/PC_LOAD" type="logic">
+      <obj_property name="ElementShortName">PC_LOAD</obj_property>
+      <obj_property name="ObjectShortName">PC_LOAD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_simulation/uut/cpu_t/control_unit_t/PC_INC" type="logic">
+      <obj_property name="ElementShortName">PC_INC</obj_property>
+      <obj_property name="ObjectShortName">PC_INC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_simulation/uut/cpu_t/control_unit_t/A_LOAD" type="logic">
+      <obj_property name="ElementShortName">A_LOAD</obj_property>
+      <obj_property name="ObjectShortName">A_LOAD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_simulation/uut/cpu_t/control_unit_t/B_LOAD" type="logic">
+      <obj_property name="ElementShortName">B_LOAD</obj_property>
+      <obj_property name="ObjectShortName">B_LOAD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_simulation/uut/cpu_t/control_unit_t/ALU_Sel" type="array">
+      <obj_property name="ElementShortName">ALU_Sel[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_Sel[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_simulation/uut/cpu_t/control_unit_t/CCR_LOAD" type="logic">
+      <obj_property name="ElementShortName">CCR_LOAD</obj_property>
+      <obj_property name="ObjectShortName">CCR_LOAD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_simulation/uut/cpu_t/control_unit_t/BUS1_Sel" type="array">
+      <obj_property name="ElementShortName">BUS1_Sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">BUS1_Sel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_simulation/uut/cpu_t/control_unit_t/BUS2_Sel" type="array">
+      <obj_property name="ElementShortName">BUS2_Sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">BUS2_Sel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_simulation/uut/cpu_t/control_unit_t/write_enable" type="logic">
+      <obj_property name="ElementShortName">write_enable</obj_property>
+      <obj_property name="ObjectShortName">write_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_simulation/uut/cpu_t/control_unit_t/current_state" type="other">
+      <obj_property name="ElementShortName">current_state</obj_property>
+      <obj_property name="ObjectShortName">current_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_simulation/uut/cpu_t/control_unit_t/next_state" type="other">
+      <obj_property name="ElementShortName">next_state</obj_property>
+      <obj_property name="ObjectShortName">next_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_simulation/uut/cpu_t/control_unit_t/LOAD_A_CNST" type="array">
+      <obj_property name="ElementShortName">LOAD_A_CNST[7:0]</obj_property>
+      <obj_property name="ObjectShortName">LOAD_A_CNST[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_simulation/uut/cpu_t/control_unit_t/LOAD_A" type="array">
+      <obj_property name="ElementShortName">LOAD_A[7:0]</obj_property>
+      <obj_property name="ObjectShortName">LOAD_A[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_simulation/uut/cpu_t/control_unit_t/LOAD_B_CNST" type="array">
+      <obj_property name="ElementShortName">LOAD_B_CNST[7:0]</obj_property>
+      <obj_property name="ObjectShortName">LOAD_B_CNST[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_simulation/uut/cpu_t/control_unit_t/LOAD_B" type="array">
+      <obj_property name="ElementShortName">LOAD_B[7:0]</obj_property>
+      <obj_property name="ObjectShortName">LOAD_B[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_simulation/uut/cpu_t/control_unit_t/SAVE_A" type="array">
+      <obj_property name="ElementShortName">SAVE_A[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SAVE_A[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_simulation/uut/cpu_t/control_unit_t/SAVE_B" type="array">
+      <obj_property name="ElementShortName">SAVE_B[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SAVE_B[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_simulation/uut/cpu_t/control_unit_t/SUM_AB" type="array">
+      <obj_property name="ElementShortName">SUM_AB[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SUM_AB[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_simulation/uut/cpu_t/control_unit_t/SUB_AB" type="array">
+      <obj_property name="ElementShortName">SUB_AB[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SUB_AB[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_simulation/uut/cpu_t/control_unit_t/AND_AB" type="array">
+      <obj_property name="ElementShortName">AND_AB[7:0]</obj_property>
+      <obj_property name="ObjectShortName">AND_AB[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_simulation/uut/cpu_t/control_unit_t/OR_AB" type="array">
+      <obj_property name="ElementShortName">OR_AB[7:0]</obj_property>
+      <obj_property name="ObjectShortName">OR_AB[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_simulation/uut/cpu_t/control_unit_t/INC_A" type="array">
+      <obj_property name="ElementShortName">INC_A[7:0]</obj_property>
+      <obj_property name="ObjectShortName">INC_A[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_simulation/uut/cpu_t/control_unit_t/INC_B" type="array">
+      <obj_property name="ElementShortName">INC_B[7:0]</obj_property>
+      <obj_property name="ObjectShortName">INC_B[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_simulation/uut/cpu_t/control_unit_t/DEC_A" type="array">
+      <obj_property name="ElementShortName">DEC_A[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DEC_A[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_simulation/uut/cpu_t/control_unit_t/DEC_B" type="array">
+      <obj_property name="ElementShortName">DEC_B[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DEC_B[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_simulation/uut/cpu_t/control_unit_t/SKIP" type="array">
+      <obj_property name="ElementShortName">SKIP[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SKIP[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_simulation/uut/cpu_t/control_unit_t/SKIP_NEG" type="array">
+      <obj_property name="ElementShortName">SKIP_NEG[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SKIP_NEG[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_simulation/uut/cpu_t/control_unit_t/SKIP_POZ" type="array">
+      <obj_property name="ElementShortName">SKIP_POZ[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SKIP_POZ[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_simulation/uut/cpu_t/control_unit_t/SKIP_0" type="array">
+      <obj_property name="ElementShortName">SKIP_0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SKIP_0[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_simulation/uut/cpu_t/control_unit_t/SKIP_N0" type="array">
+      <obj_property name="ElementShortName">SKIP_N0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SKIP_N0[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_simulation/uut/cpu_t/control_unit_t/SKIP_OFLOW" type="array">
+      <obj_property name="ElementShortName">SKIP_OFLOW[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SKIP_OFLOW[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_simulation/uut/cpu_t/control_unit_t/SKIP_NOFLOW" type="array">
+      <obj_property name="ElementShortName">SKIP_NOFLOW[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SKIP_NOFLOW[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_simulation/uut/cpu_t/control_unit_t/SKIP_CARRY" type="array">
+      <obj_property name="ElementShortName">SKIP_CARRY[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SKIP_CARRY[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor_simulation/uut/cpu_t/control_unit_t/SKIP_NCARRY" type="array">
+      <obj_property name="ElementShortName">SKIP_NCARRY[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SKIP_NCARRY[7:0]</obj_property>
+   </wvobject>
+</wave_config>
