@@ -8,6 +8,14 @@ The waveforms in the simulation results are specified in the files.
 
 
 
+![image](https://user-images.githubusercontent.com/76498114/219227793-26e7cb5c-be12-4410-940e-9483a2cccd60.png)
+
+![image](https://user-images.githubusercontent.com/76498114/219228027-0fd24694-c60e-4d79-8bf3-cc59ec9e84e9.png)
+
+![image](https://user-images.githubusercontent.com/76498114/219228140-e41490be-dd34-4f85-9e38-ba241f882fdb.png)
+
+
+
 ![image](https://user-images.githubusercontent.com/76498114/219225256-5008bfec-b277-428e-a41e-8ece4ba3216a.png)
 
 
